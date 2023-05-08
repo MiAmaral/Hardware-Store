@@ -1,0 +1,27 @@
+<header class="main-header">
+    <h1 class="main-header__title">
+       <a routerLink="produtos" id="titleHeader"><span class="main-header__title--blue">Pixel</span><span class="main-header__title--orange">Computers</span></a>
+    </h1>
+    <div class="container-menu">
+    <nav class="main-header__menu">
+        <ul>
+            <li>
+                <a routerLink="produtos">Produtos</a>
+            </li>
+            <li>
+                <a routerLink="carrinho">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Carrinho
+                    <span class="badge-carrinho">{{carrinhoService.obtemCarrinho().length}}</span>
+                </a>
+            </li>
+            <li><a routerLink="contato">Contato</a></li>
+            <li><a href="https://facebook.com.br"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://instagram.com.br"><i class="fa-brands fa-square-instagram"></i></a></li>
+            <li><a href="https://twitter.com.br"><i class="fa-brands fa-square-twitter"></i></a></li>
+            <li><a href="https://linkedin.com.br"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </nav>
+    <app-barra-pesquisa></app-barra-pesquisa>
+</div>
+</header>
