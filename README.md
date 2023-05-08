@@ -1,4 +1,4 @@
-## ✨ PROJETO PIXEL COMPUTER - HARDWARE STORE ✨
+## ✨ PROJETO PIXELCOMPUTERS - HARDWARE STORE ✨
 
 ##### Bem-vindo ao repositório do site PixelComputers! Aqui você encontrará uma aplicação em Angular que simula um site de e-commerce de produtos de hardware. O projeto conta com um sistema de carrinho de compras, pesquisa de produtos e formulário de contato para que os clientes possam entrar em contato com a loja. O objetivo é oferecer uma experiência de usuário completa e satisfatória para os usuários que procuram por produtos de hardware na internet.
 
